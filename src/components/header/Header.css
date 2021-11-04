@@ -1,0 +1,45 @@
+.hero {
+  background-color: #f2e190;
+  margin: 0 15%;
+
+  height: 92.5vh;
+  background-repeat: no-repeat;
+}
+
+.header {
+  background-color: #9f0201;
+  height: 20.5vh;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.header__title {
+  font-size: 8vw;
+  color: #f2e190;
+  display: flex;
+  align-content: flex-end;
+  /* margin: 2%; */
+}
+
+.header__picture {
+  height: 74.5vh;
+  background-image: url(../../img/robot.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.header__navigation {
+  list-style: none;
+  display: flex;
+
+  align-content: center;
+  justify-content: end;
+}
+
+.header__navigation-item {
+  font-size: 3vw;
+  padding: 2% 4%;
+  font-weight: 600;
+}
